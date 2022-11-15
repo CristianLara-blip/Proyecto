@@ -1,0 +1,103 @@
+$titulo: 80px;
+$cuadro1: 130px;
+
+
+.tab-content {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 0.25rem;
+    position: relative;
+    transition: all 0.15s ease;
+    box-shadow: 0 15px 35px rgb(50 50 93 / 10%), 0 5px 15px rgb(0 0 0 / 7%) !important;}
+
+
+
+.imagenes {
+    height: $cuadro1;
+}
+
+
+.titulo {
+    font-size: $titulo;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.fondo {
+    background-image: url(https://img.freepik.com/vector-premium/fondo-verde-geometrico-moderno_75555-67.jpg?w=740);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.simple {
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+
+$letra:14px;
+
+.letra2 {
+    font-family: sans-serif;
+    font-size: $letra;
+}
+
+.mt-4 {
+    margin-top: 3.5rem !important;
+}
+
+.letra {
+    font-family: sans-serif;
+   
+}
+
+.procesos {
+    background-color: #000000b6;
+}
+
+.col-lg-10 {
+    max-width: 25%;
+}
+
+.text-success {
+    color: #39b530!important;
+}
+
+
+.btn {
+    border: 0px solid transparent;
+    border-radius: 0.8rem;
+}
+
+.mb-lg-5,
+.my-lg-5 {
+    margin-bottom: 7rem !important;
+}
+
+.mt-5,
+.my-5 {
+    margin-top: 10rem !important;
+}
+
+
+.personas{
+    animation-name: girarb;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    display: inline-block;
+}
+
+@keyframes girarb{
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+}
+
+
+.btn {
+    padding: 0.4rem 1rem;
+}
